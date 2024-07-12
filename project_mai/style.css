@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+nav{
+  position: fixed;
+  background:lightcyan;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: darkblue;
+  font-size: 50px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 10px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: darkblue;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 25px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.menu ul li a:hover{
+  background: white;
+  color: black;
+}
+.img{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+}
+.center .btns{
+  margin-top: 10px;
+}
+.center .btns button{
+  height: 50px;
+  width: 170px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+
+.center .btns button:first-child{
+   background-color: white;
+  color:darkblue;
+  
+}
+.center .btns button:first-child:hover{
+  background: black;
+  color: black;
+}
+.center .btns button:last-child{
+ color: darkblue;
+ background-color: white;
+ 
+}
+ .center .btns button:last-child:hover{
+  background:black;
+  color: white;
+}
+
+.About{
+  text-decoration: none;
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 600;
+ background-image:url("./images/whibg.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment:scroll;
+ text-align: center;
+}
+.About .pa1{
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-weight:5000;
+  text-align:center;
+  margin-right: 50%;
+}
+
+.About  .infra{
+  margin-left:75%;
+  margin-top: -17.8em;
+  margin-right: 2em;
+  margin-bottom: -4em;
+}
+
+.Acadamics{
+  background-image: url("./images/skybg.jpg");
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size: 100% 100%;
+  opacity: 0.9;
+  font-family: serif;
+  
+}
+.Acadamics .achead{
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 300;
+  background-color: darkblue;
+}
+
+.Acadamics .abody{
+  text-align: left;
+margin-right: 50%;
+  text-decoration: none;
+  text-align: justify;
+  color: darkblue;
+  font-weight: 400;
+}
+
+.Acadamics .h1{
+text-decoration: none;
+text-align: left;
+margin-right: 50%;
+font-weight: 500;
+color: darkblue;
+font-size: 2rem;
+}
+
+.Acadamics .abody1{
+  text-align: left;
+margin-right: 50%;
+  text-decoration: none;
+  text-align: justify;
+  color: darkblue;
+  font-weight: 400;
+}
+
+.Acadamics .h2{
+  font-size: 2rem;
+  font-weight: 500;
+text-decoration: none;
+text-align: left;
+margin-right: 50%;
+color: darkblue;
+}
+
+.Contact{
+  text-decoration: none;
+  background-color: black; 
+  color: white;
+}
+
+.Contact table ul a{
+  text-decoration:none;
+  color: white;
+}
+.Contact table ul a:hover{
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.Contact a{
+  text-decoration: none;
+  color: white;
+}
+.Admission{
+  background-attachment: scroll;
+  background-color: lightyellow;
+}
+.Admission table .btns1 button{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border:none;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+.Admission table .btns2 button{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border:none;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+
+.Admission table .btns1 button{
+   color: white;
+  background: darkblue;
+}
+.Admission table .btns1 button:hover{
+  background:none;
+  color: darkblue;
+}
+.Admission table .btns2 button{
+  color: white;
+ background: darkblue;
+}
+ .Admission table .btns2 button:hover{
+  background:none;
+  color:darkblue;
+}
